@@ -1,5 +1,8 @@
 # Build jwfu with jemdoc and deploy to GitHub Pages.
-# In repo Settings → Pages → Build and deployment → Source: GitHub Actions.
+#
+# Required once per repo: Settings → Pages → Build and deployment → Source: GitHub Actions
+# https://github.com/<owner>/<repo>/settings/pages
+# If Source is "Deploy from a branch", deploy-pages returns 404.
 
 name: Deploy GitHub Pages
 
@@ -33,6 +36,7 @@ jobs:
           mkdir -p ../docs
           cp index.html research.html jemdoc.css Picture1.png ../docs/
           touch ../docs/.nojekyll
+      # v4 omits dotfiles (e.g. .nojekyll); keep v3 so Jekyll is disabled on Pages.
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
@@ -44,5 +48,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5
         id: deployment

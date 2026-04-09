@@ -42,3 +42,18 @@ git push -u origin main
 ```
 
 将 `<你的用户名>`、`<仓库名>` 换成你自己的。
+
+## 故障排除：deploy 报 404（Failed to create deployment）
+
+若 Actions 里 **deploy** 步骤失败，提示 `status: 404` 或 *Ensure GitHub Pages has been enabled*，说明 **尚未用「GitHub Actions」作为 Pages 发布源**（或从未开启 Pages）。
+
+1. 打开仓库的 Pages 设置：  
+   `https://github.com/<用户名>/<仓库名>/settings/pages`
+2. 在 **Build and deployment** 里，把 **Source** 设为 **GitHub Actions**（不要选 *Deploy from a branch* 与 Actions 混用）。
+3. 保存后，到 **Actions** 里重新运行一次 **Deploy GitHub Pages** workflow。
+
+若你更希望 **不用 Actions、只发布 `docs/` 文件夹**：把 Source 改为 **Deploy from a branch**，选分支 **main**，目录 **/docs**，并**删除或停用** `.github/workflows/deploy-pages.yml`，避免两套发布方式冲突。
+
+## Node.js 版本提示（警告）
+
+GitHub Actions 可能提示部分 action 使用旧版 Node；当前 `deploy-pages` 已用 **v5**（Node 24）。`upload-pages-artifact` 仍为 **v3**，以便把 **`.nojekyll`** 打进产物（v4 默认不包含点文件）。若仍有告警，可忽略或日后随官方升级。
