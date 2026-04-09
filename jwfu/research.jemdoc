@@ -10,4 +10,10 @@ My research focuses on the foundations of trustworthy and generalizable AI, with
 - Compositional Generalization
 - Multi-agent Systems
 
+== Selected Publications
+. *Jingwen Fu*, Nanning Zheng. On the Statistical Mechanisms of Distributional Compositional Generalization. /International Conference on Machine Learning (ICML)/, 2025.
+. *Jingwen Fu*, Tao Yang, Yuwang Wang, Yan Lu, Nanning Zheng. Breaking through the Learning Plateaus of In-context Learning in Transformer. /International Conference on Machine Learning (ICML)/, 2024.
+. *Jingwen Fu*, Zhizheng Zhang, Dacheng Yin, Yan Lu, Nanning Zheng. Learning Trajectories are Generalization Indicators. /Advances in Neural Information Processing Systems (NeurIPS)/, 2023.
+. Bowen Wang, *Jingwen Fu*, Haoran Zhang, Nanning Zheng, Wei Chen. Closing the Gap Between the Upper Bound and the Lower Bound of Adam's Iteration Complexity. /Advances in Neural Information Processing Systems (NeurIPS)/, 2023.
+
 A fuller list of papers and citations is on [https://scholar.google.com/citations?user=2Cu9uMUAAAAJ&hl=en/ Google Scholar].
