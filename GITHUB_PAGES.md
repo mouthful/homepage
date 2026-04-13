@@ -12,7 +12,7 @@ GitHub 不会“渲染” jemdoc 源码，而是托管你编译好的 **静态 H
    `https://<你的用户名>.github.io/<仓库名>/`  
    首页对应 `docs/index.html`。
 
-以后只要改 `jwfu/*.jemdoc` 或 `jwfu/jemdoc.css` 等，push 后 Actions 会重新编译并发布。
+以后只要改 `hezh/*.jemdoc` 或 `hezh/jemdoc.css` 等，push 后 Actions 会重新编译并发布。
 
 本地可先执行（需已安装 Python）：
 
