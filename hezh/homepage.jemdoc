@@ -1,0 +1,22 @@
+# jemdoc: menu{MENU}{index.html}, nofooter
+= He Zhang
+
+~~~
+{}{img_left}{fig1.png}{Photo of He Zhang}{150px}
+*He Zhang* \n
+Assistant Professor. \n
+AI Theory and Algorithm Division \n
+[https://www.bza.edu.cn/ Zhongguancun Academy] \n
+Email: /zhanghe@zgci.ac.cn/ \n
+[https://scholar.google.com/citations?user=ACpFECkAAAAJ&hl=zh-CN Google Scholar] \n
+~~~
+
+== Biography
+I am an assistant professor at Zhongguancun Academy, affiliated with the AI Theory and Algorithm Division in the AI Core Department. Previously, I was a researcher at Beijing Academy of Artificial Intelligence (BAAI), Health Computing Group. I received my Ph.D. degree from the College of Artificial Intelligence of Xi'an Jiaotong University, advised by Prof. [https://scholar.google.com.hk/citations?user=iqMe3p8AAAAJ&hl=zh-CN Nanning Zheng]. I also received my B.Eng. degree from the Faculty of Electronic and Information Engineering of Xi’an Jiaotong University. During my doctoral studies, I was part of a joint Ph.D. program between Xi’an Jiaotong University and Microsoft Research Asia, and was additionally supervised by Prof. [https://www.bza.edu.cn/teacher/9dff66f581464ef3a99e8f7f84ce2f72 Bin Shao]. My research interests include generative models, geometric deep learning, and AI for Science, with current applications in quantum chemistry, especially density functional theory, and molecular structure prediction.
+
+== Educational Background
+- *Ph.D.*, College of Artificial Intelligence, Xi’an Jiaotong University, Sep 2019 – Jun 2024
+- *B.Eng.*, Faculty of Electronic and Information Engineering, Xi’an Jiaotong University, Sep 2015 – Jun 2019
+
+== For Prospective Students
+We are always looking for highly motivated Ph.D. students. If you are interested in my research, please feel free to email me.

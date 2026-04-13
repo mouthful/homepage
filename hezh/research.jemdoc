@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{research.html}, nofooter
+= Research
+
+== Research Overview
+My research interest includes generative models, geometric deep learning, and leveraging AI techniques for solving scientific problems, including but not limited to quantum chemistry acceleration (especially for density functional theory), molecular structure prediction.
+
+== Research Interest
+- Generative Models and Their Applications to Scientific Problems
+- AI for Quantum Chemistry
+- Geometric Deep Learning
+
+== Selected Publications
+. *He Zhang†*, Siyuan Liu†, Jiacheng You, Chang Liu*, Shuxin Zheng*, Ziheng Lu, Tong Wang, Nanning Zheng, Bin Shao*. Overcoming the Barrier of Orbital-Free Density Functional Theory for Molecular Systems Using Deep Learning. /Nature Computational Science/, 2024.
+. *He Zhang*, Chang Liu*, Zun Wang, Xinran Wei, Siyuan Liu, Nanning Zheng*, Bin Shao, Tie-Yan Liu. /International Conference on Machine Learning/, 2024.
+. *He Zhang†*, Fusong Ju†, Jianwei Zhu, Liang He, Bin Shao*, Nanning Zheng*, Tie-Yan Liu. Coevolution transformer for protein contact prediction. /Advances in Neural Information Processing Systems/, 2021.
+. Weitao Du*†, *He Zhang†*, Yuanqi Du, Qi Meng*, Wei Chen, Nanning Zheng, Bin Shao, Tie-Yan Liu. SE(3) equivariant graph neural networks with complete local frames. /International Conference on Machine Learning/, 2022.
+. Weitao Du†, *He Zhang†*, Tao Yang†, Yuanqi Du†. A flexible diffusion model. /International Conference on Machine Learning/, 2023.
+
+A fuller list of papers and citations is on [https://scholar.google.com/citations?user=ACpFECkAAAAJ&hl=zh-CN Google Scholar].
