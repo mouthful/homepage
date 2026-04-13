@@ -1,6 +1,6 @@
 # Personal homepage (jemdoc + MathJax)
 
-Source files live in `jwfu/`. Static site for GitHub Pages is built into `docs/`.
+Source files live in `hezh/`. Static site for GitHub Pages is built into `docs/`.
 
 ## Build
 
