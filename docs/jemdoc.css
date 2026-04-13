@@ -381,3 +381,7 @@ table.imgtable img {
 	height: auto;
 	max-width: 100%;
 }
+
+.redtext {
+  color: red;
+}
