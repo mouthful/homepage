@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build jwfu site into docs/ (for GitHub Pages or local preview).
+# Build hezh site into docs/ (for GitHub Pages or local preview).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT/hezh"
